@@ -49,7 +49,6 @@ def internal_urls(url, num_table):
         for col in row.children:
             if col.name is not None:
                 row_text += col.text.strip() + ','
-                # print(col.name, end=',')
         print(row_text[: -1])
         row_text = ''
 
